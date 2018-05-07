@@ -6,8 +6,9 @@ var elementsLength = document.getElementsByClassName('button').length;
 console.log (elementsLength);
 */
 
-var textInButton = document.getElementsByClassName('button');
+var textButtons = document.getElementsByClassName('button');
 
-for (var k = 0; k < textInButton.length; k++){
-	alert(textInButton[k].innerText);
+for (var i = 0; i < textButtons.length; i++){
+	alert(textButtons[i].innerText);
 }
+
